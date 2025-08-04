@@ -464,7 +464,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "OmegaKit_FX50.kicad_pro",
+    "filename": "OmegaKit_RZ60.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -500,10 +500,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "OmegaKit_FX50_Gerbers/",
+      "plot": "OmegaKit_RZ60_Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "OmegaKit_FX50.step",
+      "step": "OmegaKit_RZ60.step",
       "svg": "",
       "vrml": ""
     },
@@ -624,7 +624,7 @@
   },
   "sheets": [
     [
-      "db1e6abd-47b8-46c4-8dd9-8dc26aa7d6a8",
+      "57f237ba-44fe-4be9-a7b8-02003adcb62d",
       "Root"
     ]
   ],
