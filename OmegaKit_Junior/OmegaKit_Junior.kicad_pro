@@ -503,7 +503,7 @@
       "plot": "OmegaKit_Junior_Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "OmegaKit_Junior.step",
       "svg": "",
       "vrml": ""
     },
