@@ -507,7 +507,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "OmegaKit_ESP_Embarcado.step",
       "svg": "",
       "vrml": ""
     },
