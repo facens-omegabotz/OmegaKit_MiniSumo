@@ -3221,7 +3221,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 86.36) (xy 245.11 86.36)
+			(xy 241.3 86.36) (xy 248.92 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3479,7 +3479,7 @@
 		)
 		(uuid "064514d0-046d-43ce-b1e5-6868374332de")
 	)
-	(label "VCC"
+	(label "V_REG"
 		(at 127 116.84 0)
 		(effects
 			(font
@@ -3849,8 +3849,8 @@
 		)
 		(uuid "87e623fb-e07b-4463-b521-860b0b03bd04")
 	)
-	(label "VCC"
-		(at 245.11 86.36 180)
+	(label "V_REG"
+		(at 248.92 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)

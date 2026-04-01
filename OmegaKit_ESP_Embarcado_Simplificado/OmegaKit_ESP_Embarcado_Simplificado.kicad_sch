@@ -3850,6 +3850,12 @@
 		(uuid "20bceefc-dbbc-447e-b4c7-037472e5297a")
 	)
 	(junction
+		(at 274.32 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "447755ed-b3ef-4da4-9baa-a2d58dcd7675")
+	)
+	(junction
 		(at 115.57 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4022,6 +4028,16 @@
 			(type default)
 		)
 		(uuid "07274aec-6a13-4c34-8d59-4bdb11ee0a90")
+	)
+	(wire
+		(pts
+			(xy 259.08 29.21) (xy 259.08 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cb16b80-56d3-4bc5-87ff-70b2707ae151")
 	)
 	(wire
 		(pts
@@ -4242,6 +4258,16 @@
 			(type default)
 		)
 		(uuid "5802ed64-b8e5-4e03-a2d1-8a82c1fb8771")
+	)
+	(wire
+		(pts
+			(xy 269.24 29.21) (xy 274.32 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e1e2c79-ac4e-41cf-a5d9-11b0c249cff9")
 	)
 	(wire
 		(pts
@@ -4495,6 +4521,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 29.21) (xy 259.08 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eca7d018-748b-4cc8-8aa9-e63191d4e692")
+	)
+	(wire
+		(pts
 			(xy 233.68 91.44) (xy 233.68 93.98)
 		)
 		(stroke
@@ -4532,6 +4568,16 @@
 			(type default)
 		)
 		(uuid "f7e40455-93aa-4e3b-95fd-bdbb10db3985")
+	)
+	(wire
+		(pts
+			(xy 274.32 29.21) (xy 274.32 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f84769f5-6388-4552-a27c-5c1b561d60de")
 	)
 	(wire
 		(pts
@@ -4674,50 +4720,6 @@
 		(uuid "0a2ef9a9-d0cc-4af3-a82b-51eb458cf749")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 38.7265 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SENSOR1"
-		(shape input)
-		(at 72.39 33.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0aad936e-3f99-44b8-8ffc-c83b8bc41116")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.0837 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SENSOR5"
-		(shape input)
-		(at 82.55 43.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0ef07e80-780f-4a88-a283-897aa5edf59c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.2437 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4943,28 +4945,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SENSOR2"
-		(shape input)
-		(at 74.93 35.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "28e02d99-d6a1-4404-ade0-675f539a48a6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.6237 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -5255,9 +5235,9 @@
 			)
 		)
 	)
-	(global_label "QTR1"
+	(global_label "SENSOR5"
 		(shape input)
-		(at 67.31 27.94 0)
+		(at 77.47 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5265,9 +5245,9 @@
 			)
 			(justify left)
 		)
-		(uuid "46293080-977f-4d07-9ceb-91a3697fd97e")
+		(uuid "4aaf970a-b40f-41d3-9b03-d3bbddb0966a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 75.0728 27.94 0)
+			(at 89.1637 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5312,6 +5292,50 @@
 		(uuid "4e87cd18-211f-4864-a10c-77458f763f96")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 247.9137 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SENSOR3"
+		(shape input)
+		(at 72.39 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4f61150c-c893-4674-9668-390265cd559e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.0837 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SENSOR1"
+		(shape input)
+		(at 67.31 27.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "503c3f08-74fa-457a-a2ff-2a6589f90fb9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 79.0037 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5367,7 +5391,7 @@
 	)
 	(global_label "BOOT"
 		(shape input)
-		(at 251.46 24.13 180)
+		(at 259.08 24.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5377,7 +5401,7 @@
 		)
 		(uuid "5affd425-2ea4-4023-8026-bb42a2a4a064")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.5762 24.13 0)
+			(at 251.1962 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5673,6 +5697,28 @@
 			)
 		)
 	)
+	(global_label "QTR1"
+		(shape input)
+		(at 80.01 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7e4c5f33-75cd-4e38-8c42-936279925127")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.7728 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "5V"
 		(shape input)
 		(at 252.73 74.93 0)
@@ -5871,6 +5917,28 @@
 			)
 		)
 	)
+	(global_label "SENSOR2"
+		(shape input)
+		(at 69.85 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "984a749b-ab4e-468d-aa9a-259939a633b2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.5437 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "AIN2"
 		(shape input)
 		(at 59.69 27.94 180)
@@ -5911,6 +5979,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SENSOR4"
+		(shape input)
+		(at 74.93 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9f6a61cb-d0a5-410a-bcc1-0cd05f914626")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.6237 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6025,50 +6115,6 @@
 			)
 		)
 	)
-	(global_label "SENSOR4"
-		(shape input)
-		(at 80.01 40.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bd81a79b-b586-4800-bba1-8e044db33e6e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.7037 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "QTR2"
-		(shape input)
-		(at 69.85 30.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c8edf075-2fc6-4e4f-a04e-ee123177a89d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.6128 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "5V"
 		(shape input)
 		(at 148.59 92.71 180)
@@ -6157,28 +6203,6 @@
 			)
 		)
 	)
-	(global_label "SENSOR3"
-		(shape input)
-		(at 77.47 38.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d57c5d20-9743-4ac6-8032-e49e3b6dc60f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.1637 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "12V"
 		(shape input)
 		(at 180.34 77.47 0)
@@ -6219,6 +6243,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "QTR2"
+		(shape input)
+		(at 82.55 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d96a5e6c-a026-4192-870a-1bd9bd46bd4c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.3128 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6616,6 +6662,73 @@
 			(project "OmegaKit_ESP_Embarcado"
 				(path "/d9b0d39b-fc2d-419b-9e34-6549daa808b2"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_US")
+		(at 265.43 29.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "121ec29c-c46a-4e5e-a50b-0e25d9b39475")
+		(property "Reference" "C6"
+			(at 265.43 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100 nF"
+			(at 265.43 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 265.43 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "capacitor, US symbol"
+			(at 265.43 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d5e8b68-7e67-4428-ba08-3a8269d3e810")
+		)
+		(pin "2"
+			(uuid "37bbc9de-3b8f-4483-9191-2f17383cee05")
+		)
+		(instances
+			(project "OmegaKit_ESP_Embarcado_Simplificado"
+				(path "/d9b0d39b-fc2d-419b-9e34-6549daa808b2"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -7948,7 +8061,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3fedee8c-9dc1-4edd-87fb-f4adf63f678d")
-		(property "Reference" "S34"
+		(property "Reference" "S32"
 			(at 212.598 100.584 90)
 			(effects
 				(font
@@ -8005,7 +8118,7 @@
 		(instances
 			(project "OmegaKit_ESP_Embarcado"
 				(path "/d9b0d39b-fc2d-419b-9e34-6549daa808b2"
-					(reference "S34")
+					(reference "S32")
 					(unit 1)
 				)
 			)
@@ -8628,73 +8741,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 255.27 24.13 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "59f25ca2-c3b9-427e-9362-70cea3d44fcd")
-		(property "Reference" "R2"
-			(at 255.27 26.924 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100Ohm"
-			(at 255.27 29.464 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 255.27 25.908 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 255.27 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fb0c9acd-29a7-4202-b6f4-b7658e285a16")
-		)
-		(pin "1"
-			(uuid "9236e5ce-8abc-49ad-9989-c4d274681db4")
-		)
-		(instances
-			(project "OmegaKit_ESP_Embarcado"
-				(path "/d9b0d39b-fc2d-419b-9e34-6549daa808b2"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
 		(at 252.73 99.06 270)
 		(unit 1)
@@ -8703,7 +8749,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5e1a00fe-d299-463a-96e4-3cf0da884036")
-		(property "Reference" "Q25"
+		(property "Reference" "Q34"
 			(at 249.428 100.584 90)
 			(effects
 				(font
@@ -8760,7 +8806,7 @@
 		(instances
 			(project "OmegaKit_ESP_Embarcado"
 				(path "/d9b0d39b-fc2d-419b-9e34-6549daa808b2"
-					(reference "Q25")
+					(reference "Q34")
 					(unit 1)
 				)
 			)
@@ -8775,7 +8821,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6109a52e-8f1d-473a-b653-9f830ef20f3d")
-		(property "Reference" "S35"
+		(property "Reference" "S33"
 			(at 230.378 100.584 90)
 			(effects
 				(font
@@ -8832,7 +8878,7 @@
 		(instances
 			(project "OmegaKit_ESP_Embarcado"
 				(path "/d9b0d39b-fc2d-419b-9e34-6549daa808b2"
-					(reference "S35")
+					(reference "S33")
 					(unit 1)
 				)
 			)
@@ -10104,7 +10150,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d902499-6c8e-405f-b98b-45f098578bc2")
-		(property "Reference" "S32"
+		(property "Reference" "S26"
 			(at 230.378 84.074 90)
 			(effects
 				(font
@@ -10161,7 +10207,7 @@
 		(instances
 			(project "OmegaKit_ESP_Embarcado"
 				(path "/d9b0d39b-fc2d-419b-9e34-6549daa808b2"
-					(reference "S32")
+					(reference "S26")
 					(unit 1)
 				)
 			)
@@ -10243,7 +10289,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a8540b0a-0a2e-4fcb-92a9-5ab99fed970a")
-		(property "Reference" "S33"
+		(property "Reference" "S27"
 			(at 249.428 84.074 90)
 			(effects
 				(font
@@ -10300,7 +10346,7 @@
 		(instances
 			(project "OmegaKit_ESP_Embarcado"
 				(path "/d9b0d39b-fc2d-419b-9e34-6549daa808b2"
-					(reference "S33")
+					(reference "S27")
 					(unit 1)
 				)
 			)
@@ -11183,7 +11229,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cfe9af03-d7ed-4c85-93a0-543952624c07")
-		(property "Reference" "Q26"
+		(property "Reference" "Q35"
 			(at 264.668 100.584 90)
 			(effects
 				(font
@@ -11240,7 +11286,7 @@
 		(instances
 			(project "OmegaKit_ESP_Embarcado"
 				(path "/d9b0d39b-fc2d-419b-9e34-6549daa808b2"
-					(reference "Q26")
+					(reference "Q35")
 					(unit 1)
 				)
 			)
@@ -12138,7 +12184,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "feeeb880-9d47-475b-b434-7d368e34b1c0")
-		(property "Reference" "S27"
+		(property "Reference" "S25"
 			(at 211.328 84.074 90)
 			(effects
 				(font
@@ -12195,7 +12241,7 @@
 		(instances
 			(project ""
 				(path "/d9b0d39b-fc2d-419b-9e34-6549daa808b2"
-					(reference "S27")
+					(reference "S25")
 					(unit 1)
 				)
 			)

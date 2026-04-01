@@ -3792,7 +3792,7 @@
 		(at 117.3 77 90)
 		(descr "Through hole straight socket strip, 1x08, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x08 2.54mm single row")
-		(property "Reference" "TB6612FNG1"
+		(property "Reference" "TB6612FNG"
 			(at 7.5 9.2 90)
 			(layer "F.SilkS")
 			(uuid "060f2ae7-42f0-4a9c-ab1d-fa4807a83a21")
@@ -5156,6 +5156,7 @@
 			(at 1.8572 2.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "d2241463-83c3-4bb7-b3de-14ea6a4b38f2")
 			(effects
 				(font
@@ -7981,6 +7982,18 @@
 				(bold yes)
 			)
 			(justify left bottom mirror)
+		)
+	)
+	(gr_text "10/08/2025"
+		(at 139.5 73.5 90)
+		(layer "F.SilkS")
+		(uuid "d6c72f02-64d3-440a-bba7-8c72cd9871c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
 		)
 	)
 	(dimension

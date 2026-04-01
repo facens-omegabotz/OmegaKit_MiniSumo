@@ -501,10 +501,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "OmegaKit_ESP_Embarcado_Simplificado.step",
       "svg": "",
       "vrml": ""
     },
